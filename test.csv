@@ -1,0 +1,4 @@
+"scoutName","teamNumber","matchNumber","teamColour","startingRobotPosition","pickedUpNotes","totalPickedUpNotes","speakerPiece","ampPiece","ampSpeakerPiece","failedPiece","endGame","spotlight","harmony","harmonyTeam"
+"Alex","9084","1","Blue","top","[{"left":5.052383531421627,"top":1.6074155685794167},{"left":1.0270515304979033,"top":11.198128732993151}]","2","1","1","0","0","","successfulSpotlight","failedHarmony",""
+"Alex","9084","1","Blue","top","[{"left":5.052383531421627,"top":1.6074155685794167},{"left":1.0270515304979033,"top":11.198128732993151}]","2","1","1","0","0","successfulPark","successfulSpotlight","failedHarmony",""
+"Alex","9084","1","Blue","top","[{"left":5.052383531421627,"top":1.6074155685794167},{"left":1.0270515304979033,"top":11.198128732993151}]","2","1","1","0","0","successfulPark","successfulSpotlight","noAttempt",""

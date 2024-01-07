@@ -1,0 +1,15 @@
+#failedHarmonyButton {
+  top: 30vh;
+}
+
+#successfulHarmonyButton {
+  top: 45vh;
+}
+
+#noAttemptButton {
+  top: 60vh;
+}
+
+#harmonyTeamInput {
+  top: 15vh;
+}

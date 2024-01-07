@@ -1,0 +1,18 @@
+#failedParkButton {
+  top: 13vh;
+}
+
+#successfulParkButton {
+  top: 28vh;
+}
+#failedOnstageButton {
+  top: 43vh;
+}
+
+#successfulOnstageButton {
+  top: 58vh;
+}
+
+#noAttemptButton {
+  top: 73vh;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Octo Scout 2024</title>
+    <link rel="stylesheet" href="../globalStyle.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="pageTitle">Harmony</h1>
+      <button
+        id="failedHarmonyButton"
+        class="buttonWithText"
+        onclick="failedHarmony()"
+      >
+        Failed Harmony
+      </button>
+      <button
+        id="successfulHarmonyButton"
+        class="buttonWithText"
+        onclick="successfulHarmony()"
+      >
+        Successful Harmony
+      </button>
+
+      <button id="noAttemptButton" class="buttonWithText" onclick="noAttempt()">
+        No Attempt
+      </button>
+      <input id="harmonyTeamInput" class="textInput" placeholder="Harmony Team" type="number"></input>
+      <button id="backButton" class="buttonWithText" onclick="previousPage()">
+        Back
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

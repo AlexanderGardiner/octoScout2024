@@ -1,0 +1,11 @@
+#failedSpotlightButton {
+  top: 20vh;
+}
+
+#successfulSpotlightButton {
+  top: 40vh;
+}
+
+#noAttemptButton {
+  top: 60vh;
+}
