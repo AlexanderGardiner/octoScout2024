@@ -12,14 +12,24 @@ button {
 .buttonWithText {
   height: 6vh;
   width: 30vh;
-  font-size: large;
+  font-size: 2vh;
   position: absolute;
+  background-color: #e60896;
+}
+
+.buttonWithText:hover {
+  background-color: #e461b4;
 }
 
 #backButton {
   bottom: 5vh;
   border: none;
   border-radius: 5px;
+  background-color: #6cbedc;
+}
+
+#backButton:hover {
+  background-color: #8dc2d6;
 }
 #container {
   display: flex;
@@ -31,7 +41,7 @@ button {
 }
 
 body {
-  background-color: #1dca6b;
+  background-color: #5ccb83;
 }
 
 html {
@@ -44,4 +54,6 @@ html {
   position: absolute;
   padding-left: 5px;
   font-size: large;
+  background-color: #e60896;
+  font-size: 2vh;
 }

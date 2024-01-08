@@ -16,6 +16,11 @@
 
 #nextButton {
   bottom: 5vh;
+  background-color: #6cbedc;
+}
+
+#nextButton:hover {
+  background-color: #8dc2d6;
 }
 
 .inputContainer {
