@@ -1,5 +1,5 @@
 function previousPage() {
-  window.location.href = "../endgame";
+  window.location.href = "../trap";
 }
 
 function failedSpotlight() {

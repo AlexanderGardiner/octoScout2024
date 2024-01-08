@@ -29,6 +29,7 @@ app.post("/uploadMatch", (req, res) => {
     "ampSpeakerPiece",
     "failedPiece",
     "endgame",
+    "trap",
     "spotlight",
     "harmony",
     "harmonyTeam",

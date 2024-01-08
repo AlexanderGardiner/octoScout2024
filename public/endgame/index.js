@@ -25,5 +25,5 @@ function noAttempt() {
 }
 
 function nextPage() {
-  window.location.href = "../spotlight";
+  window.location.href = "../trap";
 }

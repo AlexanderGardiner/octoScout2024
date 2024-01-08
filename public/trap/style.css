@@ -1,0 +1,11 @@
+#failedTrapButton {
+  top: 20vh;
+}
+
+#successfulTrapButton {
+  top: 40vh;
+}
+
+#noAttemptButton {
+  top: 60vh;
+}
