@@ -1,0 +1,29 @@
+#fieldImage {
+  margin-top: 20vh;
+  height: 60vh;
+}
+
+#noteSourceImage {
+  position: absolute;
+  top: 72.5vh;
+  height: 10vh;
+  object-fit: cover;
+  visibility: visible;
+  cursor: pointer;
+}
+
+#undoLastNote {
+  top: 82vh;
+  width: 20vh;
+  height: 5vh;
+}
+
+#totalNotes {
+  font-size: large;
+  bottom: 1vh;
+  position: absolute;
+}
+
+#startTeleop {
+  top: 12vh;
+}

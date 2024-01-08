@@ -14,7 +14,7 @@ function bottomRobotClick() {
 }
 
 function nextPage() {
-  window.location.href = "../pieceCollection";
+  window.location.href = "../mobilityAuto";
 }
 
 function previousPage() {

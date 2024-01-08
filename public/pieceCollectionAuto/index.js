@@ -1,15 +1,15 @@
 let blankData = [];
 let tempNotes = [];
 console.log(blankData);
-if (JSON.parse(localStorage.getItem("pickedUpNotes")) == null) {
-  localStorage.setItem("pickedUpNotes", JSON.stringify(blankData));
+if (JSON.parse(localStorage.getItem("pickedUpNotesAuto")) == null) {
+  localStorage.setItem("pickedUpNotesAuto", JSON.stringify(blankData));
 }
 
 let totalNotesElement = document.getElementById("totalNotes");
-console.log(JSON.parse(localStorage.getItem("pickedUpNotes")));
+console.log(JSON.parse(localStorage.getItem("pickedUpNotesAuto")));
 totalNotesElement.innerHTML =
   "Total Notes Collected: " +
-  JSON.parse(localStorage.getItem("pickedUpNotes")).length;
+  JSON.parse(localStorage.getItem("pickedUpNotesAuto")).length;
 function dragNote(event) {
   event.preventDefault();
   tempNotes.push(document.createElement("img"));
@@ -38,7 +38,7 @@ function moveDraggedNote(event) {
 function pickUpNote(event) {
   event.preventDefault();
   console.log("note picked up");
-  let pickedUpNotesJSON = JSON.parse(localStorage.getItem("pickedUpNotes"));
+  let pickedUpNotesJSON = JSON.parse(localStorage.getItem("pickedUpNotesAuto"));
   console.log(pickedUpNotesJSON);
   let fieldClientRect = document
     .getElementById("fieldImage")
@@ -49,8 +49,8 @@ function pickUpNote(event) {
     top:
       (16.6 * (event.clientY - fieldClientRect.top)) / fieldClientRect.height,
   });
-  localStorage.setItem("pickedUpNotes", JSON.stringify(pickedUpNotesJSON));
-  localStorage.setItem("totalPickedUpNotes", pickedUpNotesJSON.length);
+  localStorage.setItem("pickedUpNotesAuto", JSON.stringify(pickedUpNotesJSON));
+  localStorage.setItem("totalPickedUpNotesAuto", pickedUpNotesJSON.length);
   console.log(localStorage);
   totalNotesElement.innerHTML =
     "Total Notes Collected: " + pickedUpNotesJSON.length;
@@ -60,9 +60,9 @@ function pickUpNote(event) {
 }
 
 function undoLastNotePickup() {
-  let pickedUpNotesJSON = JSON.parse(localStorage.getItem("pickedUpNotes"));
+  let pickedUpNotesJSON = JSON.parse(localStorage.getItem("pickedUpNotesAuto"));
   pickedUpNotesJSON.pop();
-  localStorage.setItem("pickedUpNotes", JSON.stringify(pickedUpNotesJSON));
+  localStorage.setItem("pickedUpNotesAuto", JSON.stringify(pickedUpNotesJSON));
   totalNotesElement.innerHTML =
     "Total Notes Collected: " + pickedUpNotesJSON.length;
   tempNotes[tempNotes.length - 1].remove();
@@ -72,13 +72,13 @@ function undoLastNotePickup() {
 }
 
 function nextPage() {
-  window.location.href = "../piecePlacement";
+  window.location.href = "../piecePlacementAuto";
 }
 
-function startEndgame() {
-  window.location.href = "../endgame";
+function startTeleop() {
+  window.location.href = "../pieceCollection";
 }
 
 function previousPage() {
-  window.location.href = "../pieceCollectionAuto";
+  window.location.href = "../mobilityAuto";
 }

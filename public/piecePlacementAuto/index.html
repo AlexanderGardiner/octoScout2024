@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Octo Scout 2024</title>
+    <link rel="stylesheet" href="../globalStyle.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="pageTitle">Piece Placement Auto</h1>
+      <button
+        id="speakerButton"
+        class="buttonWithText"
+        onclick="speakerPiece()"
+      >
+        Speaker
+      </button>
+      <button id="ampButton" class="buttonWithText" onclick="ampPiece()">
+        Amp
+      </button>
+      <button
+        id="ampSpeakerButton"
+        class="buttonWithText"
+        onclick="ampSpeakerPiece()"
+      >
+        Amplified Speaker
+      </button>
+      <button id="failedButton" class="buttonWithText" onclick="failedPiece()">
+        Failed
+      </button>
+      <button id="teleopButton" class="buttonWithText" onclick="startTeleop()">
+        Start Teleop
+      </button>
+      <button id="backButton" class="buttonWithText" onclick="previousPage()">
+        Back
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

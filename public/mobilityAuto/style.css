@@ -1,0 +1,11 @@
+#failedMobilityButton {
+  top: 20vh;
+}
+
+#successfulMobilityButton {
+  top: 40vh;
+}
+
+#noAttemptButton {
+  top: 60vh;
+}

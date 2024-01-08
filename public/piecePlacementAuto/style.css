@@ -1,0 +1,18 @@
+#speakerButton {
+  top: 13vh;
+}
+
+#ampButton {
+  top: 28vh;
+}
+#ampSpeakerButton {
+  top: 43vh;
+}
+
+#failedButton {
+  top: 58vh;
+}
+
+#teleopButton {
+  top: 73vh;
+}
