@@ -5,14 +5,11 @@
 #ampButton {
   top: 28vh;
 }
-#ampSpeakerButton {
+
+#failedButton {
   top: 43vh;
 }
 
-#failedButton {
-  top: 58vh;
-}
-
 #teleopButton {
-  top: 73vh;
+  top: 58vh;
 }
